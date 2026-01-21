@@ -46,7 +46,7 @@ update msg model =
 view : Model -> Html Msg
 view model =
     div [ class "container" ]
-        [ h1 [] [ text "TcTurtle - M.Y" ]
+        [ h1 [] [ text "TcTurtle" ]
 
         , div [ class "workspace" ]
             [ -- LEFT: Input Area
