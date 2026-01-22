@@ -32,7 +32,7 @@ Use the hosted version directly in your browser: https://tcturtle.mohamadyoussef
 #### Second Option
 You can clone the repository to run or modify the code locally:
 ```bash
-git clone [https://github.com/mohamadyoussefio/tc-turtle.git](https://github.com/mohamadyoussefio/tc-turtle.git)
+git clone https://github.com/mohamadyoussefio/tc-turtle.git
 cd tc-turtle
 npm install
 npm start
