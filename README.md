@@ -34,8 +34,8 @@ You can clone the repository to run or modify the code locally:
 ```bash
 git clone https://github.com/mohamadyoussefio/tc-turtle.git
 cd tc-turtle
-npm install
-npm start
+npm run build 
+elm reactor
 ```
 
 
