@@ -46,7 +46,7 @@ update msg model =
 view : Model -> Html Msg
 view model =
     div [ class "container" ]
-        [ h1 [] [ text "TcTurtle - Mohamad Y. - Majid M." ]
+        [ h1 [] [ text "TcTurtle" ]
 
         , div [ class "workspace" ]
             [ -- LEFT: Input Area
@@ -78,4 +78,12 @@ view model =
                     Ok instructions -> instructions
                     Err _ -> [])
             ]
+            , div [ class "footer" ]
+                [ text "Created by " 
+                , strong [] [ text "Mohamad Y. & Majid M." ] -- Put your name here
+                , text " | "
+                , a [ href "https://github.com/mohamadyoussefio/tc-turtle", target "_blank" ] 
+                [ text "View Source on GitHub" ]
+            ]
         ]
+
