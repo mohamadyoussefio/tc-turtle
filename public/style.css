@@ -20,7 +20,7 @@ body {
 .container {
     width: 100%;
     max-width: 1200px; /* Increased slightly to prevent cramping */
-    padding: 20px;
+    padding: 10px;
 }
 
 h1 {
