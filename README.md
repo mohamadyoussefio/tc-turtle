@@ -6,18 +6,18 @@ This application interprets **TcTurtle**, a language invented at the department 
 
 The language consists of 4 instructions, all with parameters:
 
-* **Forward x**: Moves the pencil forward by `x` units in the current direction.
-* **Left x**: Turns the current direction `x` degrees to the left.
-* **Right x**: Turns the current direction `x` degrees to the right.
-* **Repeat x [ ... ]**: Repeats the sequence of instructions inside the brackets `x` times.
+* Forward x: Moves the pencil forward by `x` units in the current direction.
+* Left x: Turns the current direction `x` degrees to the left.
+* Right x: Turns the current direction `x` degrees to the right.
+* Repeat x [ ... ]: Repeats the sequence of instructions inside the brackets `x` times.
 
 ### Syntax Rules
 * Instructions must be separated by commas.
 * The entire program must be enclosed in square brackets `[...]`.
 * The program must be written on a single line of text.
 
-### Examples
-Here are the standard examples provided to illustrate the language:
+### Example
+Here's the standard example provided to illustrate the language:
 
 ```text
 [Repeat 360 [ Right 1, Forward 1]]
