@@ -37,7 +37,7 @@ step instruction (currentState, currentLines) =
                         , SvgAttr.x2 (String.fromFloat newX)
                         , SvgAttr.y2 (String.fromFloat newY)
                         , SvgAttr.stroke "black"
-                        , SvgAttr.strokeWidth "2"
+                        , SvgAttr.strokeWidth "1"
                         ]
                         []
             in
