@@ -6,14 +6,17 @@
     <title>TcTurtle | Grp 24</title>
     
     <link rel="stylesheet" href="style.css">
-    
+
+    <script type="module">
+      import { inject } from "https://esm.sh/@vercel/analytics";
+      inject();
+    </script> 
     <script src="elm.js"></script>
 </head>
 <body>
     <div id="elm-app"></div>
 
     <script>
-        // Start the Elm App
         var app = Elm.Main.init({
             node: document.getElementById('elm-app')
         });
